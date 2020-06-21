@@ -1,7 +1,5 @@
 # rust-tetris
 ## Description
-A small attempt at building with Rust.
-This is a tetris clone that leverages the rltk (https://github.com/thebracket/bracket-lib) toolkit, which provides rendering and game loop facilities.
-It is compiled to WASM and uses an OpenGL backend to render to Canvas. It is available to play at https://atoko.github.io/rust-tetris/
+A tetris clone built with the rltk (https://github.com/thebracket/bracket-lib) library, which provides cross-platform rendering and game loop facilities. This is a learning exercise to get familiar with the Rust toolchain, so note that this code is not "production-ready".
 
-It is certainly not idiomatic Rust code. although the entire game loop fits in under 300 lines.
+The Rust code is compiled to WASM via `wasm-bindgen`, using an OpenGL backend to render to Canvas. It is available to play at https://atoko.github.io/rust-tetris/
